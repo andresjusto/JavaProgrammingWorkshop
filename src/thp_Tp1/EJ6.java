@@ -1,4 +1,4 @@
-/*6. Realizá un programa que solicite al usuario el ingreso por teclado un valor entero mayor
+/*6. Realizá un programa que solicite al usuario el ingreso por teclado un valor entero mayor 
 que 0 en una variable llamada num1 y muestre un mensaje por pantalla indicando "el
 número es par" o "el número es impar". Deberá utilizar el operador “módulo” es el caracter
 %.*/
@@ -17,7 +17,16 @@ public class EJ6 {
 		
 		int num1=entrada.nextInt();
 		
-		if (num1){
+		int operacion=(num1%2);
+		
+		if (operacion==0) {
+			
+			System.out.println("El número es par");
+			
+		}
+		else if (operacion==1) {
+			
+			System.out.println("El número es impar");
 			
 		}
 		
